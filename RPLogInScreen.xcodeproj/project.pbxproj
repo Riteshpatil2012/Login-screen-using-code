@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BB3F13D1DA2860B00F44836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3F13C1DA2860B00F44836 /* main.m */; };
+		6BB3F1401DA2860B00F44836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3F13F1DA2860B00F44836 /* AppDelegate.m */; };
+		6BB3F1431DA2860B00F44836 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3F1421DA2860B00F44836 /* ViewController.m */; };
+		6BB3F1461DA2860B00F44836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB3F1441DA2860B00F44836 /* Main.storyboard */; };
+		6BB3F1481DA2860B00F44836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB3F1471DA2860B00F44836 /* Assets.xcassets */; };
+		6BB3F14B1DA2860B00F44836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB3F1491DA2860B00F44836 /* LaunchScreen.storyboard */; };
+		6BB3F1531DA2868E00F44836 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB3F1521DA2868E00F44836 /* email.png */; };
+		6BB3F1561DA286AA00F44836 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB3F1541DA286AA00F44836 /* password.png */; };
+		6BB3F1571DA286AA00F44836 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB3F1551DA286AA00F44836 /* upload.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BB3F1381DA2860A00F44836 /* RPLogInScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPLogInScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB3F13C1DA2860B00F44836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BB3F13E1DA2860B00F44836 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BB3F13F1DA2860B00F44836 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BB3F1411DA2860B00F44836 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BB3F1421DA2860B00F44836 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BB3F1451DA2860B00F44836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BB3F1471DA2860B00F44836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BB3F14A1DA2860B00F44836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BB3F14C1DA2860B00F44836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB3F1521DA2868E00F44836 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = email.png; path = "../../RPUI log in screen/RPUI log in screen/email.png"; sourceTree = "<group>"; };
+		6BB3F1541DA286AA00F44836 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = password.png; path = "../../RPUI log in screen/RPUI log in screen/password.png"; sourceTree = "<group>"; };
+		6BB3F1551DA286AA00F44836 /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upload.png; path = "../../RPUI log in screen/RPUI log in screen/upload.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB3F1351DA2860A00F44836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB3F12F1DA2860A00F44836 = {
+			isa = PBXGroup;
+			children = (
+				6BB3F13A1DA2860A00F44836 /* RPLogInScreen */,
+				6BB3F1391DA2860A00F44836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB3F1391DA2860A00F44836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB3F1381DA2860A00F44836 /* RPLogInScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB3F13A1DA2860A00F44836 /* RPLogInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6BB3F13E1DA2860B00F44836 /* AppDelegate.h */,
+				6BB3F13F1DA2860B00F44836 /* AppDelegate.m */,
+				6BB3F1411DA2860B00F44836 /* ViewController.h */,
+				6BB3F1421DA2860B00F44836 /* ViewController.m */,
+				6BB3F1521DA2868E00F44836 /* email.png */,
+				6BB3F1541DA286AA00F44836 /* password.png */,
+				6BB3F1551DA286AA00F44836 /* upload.png */,
+				6BB3F1441DA2860B00F44836 /* Main.storyboard */,
+				6BB3F1471DA2860B00F44836 /* Assets.xcassets */,
+				6BB3F1491DA2860B00F44836 /* LaunchScreen.storyboard */,
+				6BB3F14C1DA2860B00F44836 /* Info.plist */,
+				6BB3F13B1DA2860B00F44836 /* Supporting Files */,
+			);
+			path = RPLogInScreen;
+			sourceTree = "<group>";
+		};
+		6BB3F13B1DA2860B00F44836 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB3F13C1DA2860B00F44836 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB3F1371DA2860A00F44836 /* RPLogInScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB3F14F1DA2860B00F44836 /* Build configuration list for PBXNativeTarget "RPLogInScreen" */;
+			buildPhases = (
+				6BB3F1341DA2860A00F44836 /* Sources */,
+				6BB3F1351DA2860A00F44836 /* Frameworks */,
+				6BB3F1361DA2860A00F44836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPLogInScreen;
+			productName = RPLogInScreen;
+			productReference = 6BB3F1381DA2860A00F44836 /* RPLogInScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB3F1301DA2860A00F44836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ritesh patil";
+				TargetAttributes = {
+					6BB3F1371DA2860A00F44836 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BB3F1331DA2860A00F44836 /* Build configuration list for PBXProject "RPLogInScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BB3F12F1DA2860A00F44836;
+			productRefGroup = 6BB3F1391DA2860A00F44836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB3F1371DA2860A00F44836 /* RPLogInScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB3F1361DA2860A00F44836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB3F1571DA286AA00F44836 /* upload.png in Resources */,
+				6BB3F1531DA2868E00F44836 /* email.png in Resources */,
+				6BB3F14B1DA2860B00F44836 /* LaunchScreen.storyboard in Resources */,
+				6BB3F1561DA286AA00F44836 /* password.png in Resources */,
+				6BB3F1481DA2860B00F44836 /* Assets.xcassets in Resources */,
+				6BB3F1461DA2860B00F44836 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB3F1341DA2860A00F44836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB3F1431DA2860B00F44836 /* ViewController.m in Sources */,
+				6BB3F1401DA2860B00F44836 /* AppDelegate.m in Sources */,
+				6BB3F13D1DA2860B00F44836 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BB3F1441DA2860B00F44836 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB3F1451DA2860B00F44836 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BB3F1491DA2860B00F44836 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB3F14A1DA2860B00F44836 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BB3F14D1DA2860B00F44836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BB3F14E1DA2860B00F44836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BB3F1501DA2860B00F44836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPLogInScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivanchaudhri.RPLogInScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BB3F1511DA2860B00F44836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPLogInScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jivanchaudhri.RPLogInScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB3F1331DA2860A00F44836 /* Build configuration list for PBXProject "RPLogInScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB3F14D1DA2860B00F44836 /* Debug */,
+				6BB3F14E1DA2860B00F44836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB3F14F1DA2860B00F44836 /* Build configuration list for PBXNativeTarget "RPLogInScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB3F1501DA2860B00F44836 /* Debug */,
+				6BB3F1511DA2860B00F44836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB3F1301DA2860A00F44836 /* Project object */;
+}
